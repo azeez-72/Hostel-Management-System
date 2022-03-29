@@ -13,9 +13,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ResourceBundle;
 
-import com.example.hostelproject.ChangepasswordController;
-import com.example.hostelproject.HostelProject;
-import com.example.hostelproject.MainProgramSceneController;
 import javafx.animation.Animation;
 import javafx.animation.FadeTransition;
 import javafx.animation.Transition;
@@ -29,13 +26,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.ProgressIndicator;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.TextField;
-import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
@@ -47,6 +38,7 @@ import javafx.util.Duration;
  */
 public class MainSceneController implements Initializable
 {
+    public Label welcomeText;
     @FXML
     private PasswordField mainScenePassword;
     @FXML

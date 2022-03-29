@@ -4,7 +4,6 @@
  */
 package com.example.hostelproject;
 
-import static com.example.hostelproject.ChangepasswordController.statement;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.ResultSet;
@@ -12,8 +11,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ResourceBundle;
 
-import com.example.hostelproject.MainProgramSceneController;
-import com.example.hostelproject.MainSceneController;
 import javafx.animation.FadeTransition;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
